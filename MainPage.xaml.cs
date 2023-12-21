@@ -7,6 +7,7 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
         
+        //load url
         MyWebView.Source = "https://www.w3schools.com/howto/tryit.asp?filename=tryhow_html_file_upload_button";
 
     }
